@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+ #control {
+        background: #fff;
+        padding: 5px;
+        font-size: 14px;
+        font-family: Arial;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+        display: none;
+      }
+
+.givepad{padding-left:90px;}
+.top_title { border-bottom:none;  background: url("../../image/storelocator/cms_header.png") no-repeat scroll 0 0 transparent;
+
+}
+.top_title h1 {color: #00b9eb;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 5px;
+   
+    text-transform: uppercase; padding-top:20px; padding-left:11px; line-height:1;}
+.top_title {
+	height:117px;
+	padding:0;
+	margin:0;
+}
+.top_title .head-content {
+    color: #000000;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    padding-left: 11px;
+}
+
+.pagination {
+    /*background: none repeat scroll 0 0 #E6E6E3;*/
+    overflow: hidden;
+    /*padding: 0 10px;*/
+    position: relative;
+}
+.gmaps .block-layered-nav {
+	 border-bottom: 1px solid #DADAD7;
+    overflow: hidden;
+    padding: 10px 0;
+    float: none;
+}
+.gmaps .block-layered-nav .block-content{width:100% !important;float:none;}
+/*.total_maps{
+	cursor:pointer;
+	float:right;
+	color: #DA1A35;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}*/
+.total_maps {
+    color: #DA1A35;
+    cursor: pointer;
+    float: right;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 37px;
+    padding-right:40px;
+}
+
+.clear { clear:both; }
+
+.resultado {float:left; /*background:#e6e6e3;*/ /*width:945px;*/ min-height:30px; padding:6px 10px 0 10px;/* border-top:#dadad7 1px solid;*/ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#555555; }
+
+.resultado h1 { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000; text-transform:uppercase; float:left; padding-right:15px; }
+
+.resultado .spanred { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#da1a35; }
+.resultado .spanblack { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000; }
+.izi_map { width:965px; height:693px; position:relative; }
+
+.izi_map .iib1 { width:24px; height:34px; position:absolute; right:360px; top:189px; }
+
+.izi_map .iib2 { width:24px; height:34px; position:absolute; left:64px; top:390px; }
+
+.izi_map .iib3 { width:24px; height:34px; position:absolute; left:387px; bottom:38px; }
+
+.izi_map .popup { width:364px; position:absolute; top:112px; left:110px; }
+
+.izi_map .popup .inner { position:relative; width:364px; }
+
+.izi_map .popup .inner .map_popup_top1 , .map_popup_top1 { background:url(../../image/storelocator/map_popup_top.png) repeat-y left top; width:284px; padding:15px; }
+
+.izi_map .popup .inner .map_popup_top1 h1,.map_popup_top1 h1 { font-family:"Trebuchet MS"; font-size:18px; font-weight:bold; color:#da1a35; text-transform:uppercase; border-bottom:#ededed 1px solid; line-height:25px;}
+
+.izi_map .popup .inner .map_popup_top1 h2,.map_popup_top1 h2 { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#000; padding-top:8px; }
+
+.izi_map .popup .inner .map_popup_top1 p,.map_popup_top1 p { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#777777; line-height:20px; padding-bottom:10px; }
+
+.izi_map .popup .inner .map_popup_top1 p span,.map_popup_top1 p span {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#000; }
+
+.izi_map .popup .inner .map_popup_top1 .getting_directions,.map_popup_top1 .getting_directions { width:100%; clear:both; border-top:#dadad7 1px solid; text-align:center !important; }
+
+.izi_map .popup .inner .map_popup_top1 .getting_directions a,.map_popup_top1 .getting_directions a { text-decoration:none; width:190px; background-color:#f2f2f2; border:#d4d3cc 1px solid; padding:6px 3px 3px 0px; display:block; margin:12px 0 0 36px;  *margin:12px 0 0 0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#333; text-transform:uppercase; background-image:url(../../image/storelocator/icon1.png); background-position:right; background-repeat:no-repeat;}
+
+.izi_map .popup .inner .map_popup_top1 .getting_directions a img,.map_popup_top1 .getting_directions a img {margin-bottom:-3px; margin-left:3px; margin-right:15px; }
+
+.izi_map .popup .inner .map_popup_top1 .getting_directions a:hover,.map_popup_top1 .getting_directions a:hover { color:#da1a35; background-image:url(../../image/storelocator/icon1_hover.png); background-position:right; background-repeat:no-repeat;  }
+
+/*Close*/
+
+.izi_map .popup .inner .map_popup_top1 .close,.map_popup_top1 .close { position:absolute; right:-12px; top:-12px; width:29px; height:29px; }
+
+/*Bottom*/
+
+.izi_map .popup .inner .map_popup_bottom,.map_popup_bottom { position:absolute; left:0px;/* bottom:-118px;*/ width:290px; height:35px; }
+
+/*Popup1*/
+
+.popup_bg { background:url(../../image/storelocator/popup_bg_trans.png) repeat; position:fixed; width:100%; height:100%; z-index:5000; }
+
+.popup1 {  background: none repeat scroll 0 0 #FFFFFF;
+    height: 195px;
+    margin: auto;
+    text-align: center;
+    width: 240px;
+    z-index: 6000 !important;}
+
+.popup1 .inner { width:240px; position:relative; }
+
+.popup1 .inner .close { width:29px; height:29px; position:absolute; right:-10px; top:-10px; }
+
+.popup1 .inner .icon { padding-top:30px; }
+
+.popup1 .inner p { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; font-weight:normal; color:#000; line-height:20px; padding:5px 0 0 0; }
+
+.ustorelocator-location-map #SexyAlertBox-Box{background: none repeat scroll 0 0 transparent;
+    
+    left: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;height: 100% !important;
+    
+}
+.ustorelocator-location-map #SexyAlertBox-Box #SexyAlertBox-InBox {   background: none repeat scroll 0 0 transparent;
+    height: 100% !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+.ustorelocator-location-map #SexyAlertBox-Box #SexyAlertBox-InBox #SexyAlertBox-BoxContent {padding:0 !important;
+    background: none;
+       height: 100% !important;
+    padding: 0 !important;
+    width: 100% !important; position: fixed;
+}
+
+.ustorelocator-location-map #SexyAlertBox-Box #SexyAlertBox-InBox #SexyAlertBox-Buttons{
+   z-index:9999 !important;
+   padding: 0 !important;
+    right: 0px !important;
+    text-align: center !important;
+    top: -15px  !important;
+    left: 250px !important;
+    position: absolute;
+    z-index: 9999 !important;
+}
+.ustorelocator-location-map #SexyAlertBox-BoxContenedor {
+	position: relative;
+	text-align: center !important;
+	top: 45% !important;padding: 0 !important;
+}
+
+.main-container .input,.main-container  .input-text,.main-container  select,.main-container textarea {
+	border: 1px solid #C9C9C7 !important;
+}
+.selectBox-dropdown {
+	border: 1px solid #C9C9C7 !important;
+}
+
+.gmaps .filter-select{ padding: 0 10px 30px;}
+
+.container_16 {padding:0 10px; }
+
+.map_popup_top1 .store-thumb { float:right; width:110px; }
+.map_popup_top1 .store-more-info { float:left; width:145px; }
+
+
+/* --------------------------------------- */
+
+#main {
+	width:100%;
+	margin:0 auto;
+}
+
+#main .form { width:100%; margin:0 auto; padding:10px 0 5px 0; float: left; }
+
+#main .form .field1 { width:100%; float:left;/* margin-right:40px;*/}
+
+#main .form .field1 p { font-family:Tahoma; font-size:12px; color:#666; line-height:25px; }
+
+#main .form .field1 .input { width:55%; background:#FFF; border:#b6b6b6 1px solid; padding:3px;font-family:Tahoma; font-size:12px; color:#666; }
+
+#main .form .field1 .button { background:#b6b6b6; border:#b6b6b6 1px solid; padding:3px 5px 3px 5px; font-family:Tahoma; font-size:12px; color:#FFF; font-weight:bold; cursor:pointer; margin-left:6px; }
+
+#main .form .field1 .button:hover { background:#818181; border:#818181 1px solid; padding:3px 5px 3px 5px; font-family:Tahoma; font-size:12px; color:#FFF; font-weight:bold; cursor:pointer; margin-left:6px; }
+
+#main .form .field2 { width:25%; float:left; /*margin-right:40px;*/ }
+
+#main .form .field2 p { font-family:Tahoma; font-size:12px; color:#666; line-height:25px; }
+
+#main .form .field2 .input { width:55%; float: left; background:#FFF; border:#b6b6b6 1px solid; padding:3px;font-family:Tahoma; font-size:12px; color:#666; }
+
+#main .form .field2 .button { background:#b6b6b6; border:#b6b6b6 1px solid; padding:3px 5px 3px 5px; font-family:Tahoma; font-size:12px; color:#FFF; font-weight:bold; cursor:pointer; margin-left:6px; }
+
+#main .form .field2 .button:hover { background:#818181; border:#818181 1px solid; padding:3px 5px 3px 5px; font-family:Tahoma; font-size:12px; color:#FFF; font-weight:bold; cursor:pointer; margin-left:6px; }
+
+#main .form .jump_menu1 { width:25%; float:left; /*margin-left:40px;*/ }
+
+#main .form .jump_menu1 p { font-family:Tahoma; font-size:12px; color:#666; line-height:25px; }
+
+#main .form .jump_menu1 .jump_menu { width:200px; background:#FFF; border:#b6b6b6 1px solid; padding:3px;font-family:Tahoma; font-size:12px; color:#666; }
+ 
+/*Store*/
+
+#main .stores {  width:100%; float:left; /*background:#FFF;*/ margin-top:30px; }
+
+/*Scroll Bar*/
+
+/* Tiny Scrollbar */
+#scrollbar1 { /*width: 430px;*/ margin: 0px 0 10px; }
+#scrollbar1 .viewport { /*width: 400px;*/ height: 545px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width: 100%; }
+#scrollbar1 .scrollbar{ background: transparent url(../../image/storelocator/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar1 .track { background: transparent url(../../image/storelocator/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent url(../../image/storelocator/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar1 .thumb .end { background: transparent url(../../image/storelocator/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 22px; width: 25px; }
+#scrollbar1 .disable { display: none; }
+
+/*Content*/
+
+#scrollbar1 .overview .content {/* width:400px; */}
+
+#scrollbar1 .overview .content .store {/* width:380px;*/ background:#FFF; border-bottom:#cccccc 1px solid; padding:10px; padding-top:15px; padding-bottom:15px; }
+
+#scrollbar1 .overview .content .store a { font-family:Tahoma; font-size:13px; color:#999; font-weight:bold; line-height:25px }
+
+#scrollbar1 .overview .content .store a:hover { color:#000; }
+
+#scrollbar1 .overview .content .store p { font-family:Tahoma; font-size:12px; color:#999; font-weight:normal; line-height:20px; }
+
+/*Map*/
+
+#main .map { width:100%; float:right;}
+
+
+.close {
+    font-size: 12px;
+    opacity: 1.00 !important;
+}
